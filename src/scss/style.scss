@@ -1,0 +1,23 @@
+@import "fonts";
+
+body {
+    background: green;
+
+    span {
+        color: pink;
+    }
+
+    background: url("@img/cover.jpg");
+}
+
+@media(max-width: 767.98px) {
+    body {
+        color: purple;
+    }
+}
+
+@media (max-width: 767.98px) {
+    span {
+        font-weight: 700;
+    }
+}
