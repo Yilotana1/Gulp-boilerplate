@@ -1,3 +1,3 @@
-import * as someFunctions from "./modules/functions.js";
+import * as flsFunctions from "./modules/functions.js";
 
-someFunctions.hello();
+flsFunctions.isWebp();
